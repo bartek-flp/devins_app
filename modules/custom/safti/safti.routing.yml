@@ -1,0 +1,14 @@
+safti.tpay_settings:
+  path: '/admin/tpay/settings'
+  defaults:
+    _form: '\Drupal\safti\Form\TpaySettingsForm'
+    _title: 'Tpay settings'
+  requirements:
+     _permission: 'safti administration'
+safti.payment_form:
+  path: '/order/{orderId}'
+  defaults:
+    _form: '\Drupal\safti\Form\PaymentForm'
+    _title: 'Pay for order'
+  requirements:
+     _permission: 'access content'

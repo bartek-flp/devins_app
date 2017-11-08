@@ -1,0 +1,4 @@
+name: SAFTI module
+type: module
+description: 'Simple As Fun Transferuj Integration'
+core: 8.x

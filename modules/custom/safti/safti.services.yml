@@ -1,0 +1,4 @@
+services:
+  safti.tpay_settings:
+    class: Drupal\safti\Controller\Settings
+    arguments: ['@config.factory']

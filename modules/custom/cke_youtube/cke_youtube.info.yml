@@ -1,0 +1,8 @@
+name: CKEditor Youtube Plugin
+type: module
+description: 'Add Youtube plugin to CKEditor'
+core: 8.x
+package: CKEditor
+dependencies:
+  - ckeditor
+
